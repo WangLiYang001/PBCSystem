@@ -1,0 +1,3199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &294184211494072499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3855025359304993359}
+  m_Layer: 0
+  m_Name: shipin2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3855025359304993359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294184211494072499}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8330193005591337632}
+  - {fileID: 4155780370074038303}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833841511561375635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7192103801990820241}
+  - component: {fileID: 3891426914158041956}
+  - component: {fileID: 6963486560138668212}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7192103801990820241
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833841511561375635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1354585032744387538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3891426914158041956
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833841511561375635}
+  m_CullTransparentMesh: 0
+--- !u!114 &6963486560138668212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833841511561375635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 5344389055677492004}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &2417032067580263578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4283886163472107655}
+  - component: {fileID: 7058742215086545924}
+  - component: {fileID: 3177940480987506650}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4283886163472107655
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2417032067580263578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7389549343578857569}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7058742215086545924
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2417032067580263578}
+  m_CullTransparentMesh: 0
+--- !u!114 &3177940480987506650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2417032067580263578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 6747267487315778644}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &2463583016516847169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4769976188032393953}
+  m_Layer: 0
+  m_Name: shipin8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4769976188032393953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2463583016516847169}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1354585032744387538}
+  - {fileID: 300700502471140371}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2485371377513703795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2924176281974962331}
+  - component: {fileID: 8093567800754001129}
+  - component: {fileID: 2455228639565582013}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2924176281974962331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2485371377513703795}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1612167167725225418}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8093567800754001129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2485371377513703795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u65B0\u65F6\u4EE3\u5171\u4EA7\u515A\u5458\u7684\u515A\u6027\u4FEE\u517B/\u5171\u4EA7\u515A\u5458\u7684\u8A93\u8BCD.mp4"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &2455228639565582013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2485371377513703795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
+--- !u!1 &2676244638654381169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6334819417118457870}
+  - component: {fileID: 3756668319403484294}
+  - component: {fileID: 849294863022017091}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6334819417118457870
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676244638654381169}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 6863832978579516522}
+  m_Father: {fileID: 3935772734946790404}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3756668319403484294
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676244638654381169}
+  m_CullTransparentMesh: 0
+--- !u!114 &849294863022017091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676244638654381169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &4048785117343803201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3358002096610738173}
+  m_Layer: 0
+  m_Name: shipin3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3358002096610738173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048785117343803201}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 266537323255744637}
+  - {fileID: 4325122555991592802}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4466017020118354303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8987654705081450310}
+  - component: {fileID: 6747267487315778644}
+  - component: {fileID: 5298746270700565522}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8987654705081450310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4466017020118354303}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 3723516666804068480}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6747267487315778644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4466017020118354303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u6539\u9769\u5F00\u653E\u53D1\u5C55\u53F2/1\u5927\u5386\u53F2\u89C2\u4E2D\u7684\u6539\u9769\u5F00\u653E.ICE"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &5298746270700565522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4466017020118354303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: "\u4E91\u8BFE\u5802/\u6539\u9769\u5F00\u653E\u53D1\u5C55\u53F2/1\u5927\u5386\u53F2\u89C2\u4E2D\u7684\u6539\u9769\u5F00\u653E.ICE"
+--- !u!1 &4549897829188515114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 300700502471140371}
+  - component: {fileID: 5344389055677492004}
+  - component: {fileID: 8092565100767770833}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &300700502471140371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4549897829188515114}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4769976188032393953}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5344389055677492004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4549897829188515114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u8DDF\u4E60\u8FD1\u5E73\u603B\u4E66\u8BB0\u5B66\u65B0\u4E2D\u56FD\u53F2/\u4E00\u3001\u5F00\u542F\u65B0\u7EAA\u5143.mp4"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &8092565100767770833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4549897829188515114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
+--- !u!1 &4678525901426683383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8570993119667151639}
+  - component: {fileID: 6364782005264861695}
+  - component: {fileID: 6483458693281891187}
+  - component: {fileID: 7825025572630080453}
+  m_Layer: 5
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8570993119667151639
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678525901426683383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2484334548958379814}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 845, y: -490}
+  m_SizeDelta: {x: 97, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6364782005264861695
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678525901426683383}
+  m_CullTransparentMesh: 0
+--- !u!114 &6483458693281891187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678525901426683383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 1c80aac257c077447aa6ac09d81f9b23, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!114 &7825025572630080453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678525901426683383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 6483458693281891187}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8715120076982828852}
+        m_MethodName: ClickExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!1 &4875674604575433111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7389549343578857569}
+  - component: {fileID: 2974372309836540628}
+  - component: {fileID: 278142640161918682}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7389549343578857569
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4875674604575433111}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 4283886163472107655}
+  m_Father: {fileID: 3723516666804068480}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1930, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2974372309836540628
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4875674604575433111}
+  m_CullTransparentMesh: 0
+--- !u!114 &278142640161918682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4875674604575433111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &4938486797672310106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3705068651303455159}
+  - component: {fileID: 1010874439940162036}
+  - component: {fileID: 3826656738935963595}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3705068651303455159
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938486797672310106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5221352175363308839}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1010874439940162036
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938486797672310106}
+  m_CullTransparentMesh: 0
+--- !u!114 &3826656738935963595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938486797672310106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 1587818680286755666}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &5129107396095485335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8330193005591337632}
+  - component: {fileID: 3094777870252327022}
+  - component: {fileID: 365870167148006731}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8330193005591337632
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129107396095485335}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 3449556168271599426}
+  m_Father: {fileID: 3855025359304993359}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3094777870252327022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129107396095485335}
+  m_CullTransparentMesh: 0
+--- !u!114 &365870167148006731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129107396095485335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &5601404509847212960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3723516666804068480}
+  m_Layer: 0
+  m_Name: shipin4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3723516666804068480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5601404509847212960}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7389549343578857569}
+  - {fileID: 8987654705081450310}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6918270182067837987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612167167725225418}
+  m_Layer: 0
+  m_Name: shipin5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1612167167725225418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6918270182067837987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7223034413879924342}
+  - {fileID: 2924176281974962331}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7013837962402129279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687315085484969669}
+  m_Layer: 0
+  m_Name: shipin7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1687315085484969669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7013837962402129279}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5221352175363308839}
+  - {fileID: 637280074404809223}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7040792670992487520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3449556168271599426}
+  - component: {fileID: 7777333615267300951}
+  - component: {fileID: 552351982879294250}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3449556168271599426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040792670992487520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8330193005591337632}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7777333615267300951
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040792670992487520}
+  m_CullTransparentMesh: 0
+--- !u!114 &552351982879294250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040792670992487520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 4802527792853765725}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &7082078754242954856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6863832978579516522}
+  - component: {fileID: 3183921133625782372}
+  - component: {fileID: 7713394593636147101}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6863832978579516522
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7082078754242954856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6334819417118457870}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3183921133625782372
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7082078754242954856}
+  m_CullTransparentMesh: 0
+--- !u!114 &7713394593636147101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7082078754242954856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 254286113734331009}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &7218075754010486200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100690583144963808}
+  - component: {fileID: 8223418646758372231}
+  - component: {fileID: 8408525051643043642}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2100690583144963808
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218075754010486200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7223034413879924342}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8223418646758372231
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218075754010486200}
+  m_CullTransparentMesh: 0
+--- !u!114 &8408525051643043642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218075754010486200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 8093567800754001129}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &7335447812833089307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735809470064679146}
+  m_Layer: 0
+  m_Name: shipin1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1735809470064679146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335447812833089307}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9073267643905180877}
+  - {fileID: 9073267645231828419}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7503367327316322032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2484334548958379814}
+  - component: {fileID: 8715120076982828852}
+  m_Layer: 5
+  m_Name: UIWindow_Yunketangrsp3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2484334548958379814
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503367327316322032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7670627683630909091}
+  - {fileID: 8570993119667151639}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8715120076982828852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503367327316322032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd4a24ea959f45449be8b0660493155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _windowPath: 
+  _hasTop: 0
+  _hasBottom: 0
+  _obj: {fileID: 5601404509847212960}
+--- !u!1 &7619498351007057946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1901931095817067314}
+  m_Layer: 5
+  m_Name: background3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1901931095817067314
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619498351007057946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1735809470064679146}
+  - {fileID: 3855025359304993359}
+  - {fileID: 3358002096610738173}
+  - {fileID: 3723516666804068480}
+  - {fileID: 1612167167725225418}
+  - {fileID: 3935772734946790404}
+  - {fileID: 1687315085484969669}
+  - {fileID: 4769976188032393953}
+  m_Father: {fileID: 7670627683630909091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &7630899904107503103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5221352175363308839}
+  - component: {fileID: 4495845433476578341}
+  - component: {fileID: 3702813686783736969}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5221352175363308839
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630899904107503103}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 3705068651303455159}
+  m_Father: {fileID: 1687315085484969669}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4495845433476578341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630899904107503103}
+  m_CullTransparentMesh: 0
+--- !u!114 &3702813686783736969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630899904107503103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &7803737732283420272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1354585032744387538}
+  - component: {fileID: 6793597004274672420}
+  - component: {fileID: 1445633821801924708}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1354585032744387538
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803737732283420272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 7192103801990820241}
+  m_Father: {fileID: 4769976188032393953}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6793597004274672420
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803737732283420272}
+  m_CullTransparentMesh: 0
+--- !u!114 &1445633821801924708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803737732283420272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &7875905314084619529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266537323255744637}
+  - component: {fileID: 6675014491723531561}
+  - component: {fileID: 5354457881298410159}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &266537323255744637
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875905314084619529}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 5080300294312513927}
+  m_Father: {fileID: 3358002096610738173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6675014491723531561
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875905314084619529}
+  m_CullTransparentMesh: 0
+--- !u!114 &5354457881298410159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875905314084619529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &8197549002209409031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9094384149630599926}
+  - component: {fileID: 254286113734331009}
+  - component: {fileID: 7123910146158363201}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9094384149630599926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197549002209409031}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 3935772734946790404}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &254286113734331009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197549002209409031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u793E\u4F1A\u4E3B\u4E49\u53D1\u5C55\u53F2/1\u5BF9\u672A\u6765\u793E\u4F1A\u7684\u7F8E\u597D\u61A7\u61AC\u2014\u2014\u2014\u2014\u7A7A\u60F3\u793E\u4F1A\u4E3B\u4E49\u7684\u4EA7\u751F\u548C\u53D1\u5C55.mp4"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &7123910146158363201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197549002209409031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
+--- !u!1 &8337180180569413701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4155780370074038303}
+  - component: {fileID: 4802527792853765725}
+  - component: {fileID: 6263488726360873161}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4155780370074038303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337180180569413701}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 3855025359304993359}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4802527792853765725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337180180569413701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u300A\u4E2D\u56FD\u5171\u4EA7\u515A\u7EAA\u5F8B\u5904\u5206\u6761\u4F8B\u300B\u89E3\u8BFB/01\u300A\u4E2D\u56FD\u5171\u4EA7\u515A\u7EAA\u5F8B\u5904\u5206\u6761\u4F8B\u300B\u4FEE\u8BA2\u7684\u80CC\u666F\u548C\u610F\u4E49.mp4"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &6263488726360873161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337180180569413701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
+--- !u!1 &8603368255462209725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3935772734946790404}
+  m_Layer: 0
+  m_Name: shipin6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3935772734946790404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8603368255462209725}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: 184, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6334819417118457870}
+  - {fileID: 9094384149630599926}
+  m_Father: {fileID: 1901931095817067314}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8830227499109626445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637280074404809223}
+  - component: {fileID: 1587818680286755666}
+  - component: {fileID: 8753115956312441138}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637280074404809223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830227499109626445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1687315085484969669}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1587818680286755666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830227499109626445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u8DDF\u4E60\u8FD1\u5E73\u603B\u4E66\u8BB0\u5B66\u515A\u53F2/\u4E00\u3001\u4EE5\u53F2\u4E3A\u5E08\u2014\u2014\u5386\u53F2\u662F\u6700\u597D\u7684\u8001\u5E08.mp4"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &8753115956312441138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830227499109626445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
+--- !u!1 &8888349399928985596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7670627683630909091}
+  - component: {fileID: 79712471480180474}
+  - component: {fileID: 6032715233506271371}
+  m_Layer: 5
+  m_Name: background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7670627683630909091
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888349399928985596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1901931095817067314}
+  m_Father: {fileID: 2484334548958379814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &79712471480180474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888349399928985596}
+  m_CullTransparentMesh: 0
+--- !u!114 &6032715233506271371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888349399928985596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 6de804d1661abe14c862b941d4701d8d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &8895943532782859041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5080300294312513927}
+  - component: {fileID: 8923824473492566877}
+  - component: {fileID: 1961740158956345447}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5080300294312513927
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8895943532782859041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 266537323255744637}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8923824473492566877
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8895943532782859041}
+  m_CullTransparentMesh: 0
+--- !u!114 &1961740158956345447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8895943532782859041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 2628840601537610598}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &8968575472059111519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7223034413879924342}
+  - component: {fileID: 2477216760857124254}
+  - component: {fileID: 3970282930177919440}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7223034413879924342
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968575472059111519}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 2100690583144963808}
+  m_Father: {fileID: 1612167167725225418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2477216760857124254
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968575472059111519}
+  m_CullTransparentMesh: 0
+--- !u!114 &3970282930177919440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968575472059111519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &9073267643905180878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9073267643905180877}
+  - component: {fileID: 9073267643905180915}
+  - component: {fileID: 9073267643905180876}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9073267643905180877
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267643905180878}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children:
+  - {fileID: 9073267645626811777}
+  m_Father: {fileID: 1735809470064679146}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -224}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &9073267643905180915
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267643905180878}
+  m_CullTransparentMesh: 0
+--- !u!114 &9073267643905180876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267643905180878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!1 &9073267645231828445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9073267645231828419}
+  - component: {fileID: 9073267645231828444}
+  - component: {fileID: 4287725718187755410}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9073267645231828419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267645231828445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1735809470064679146}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9073267645231828444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267645231828445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u201C\u4E0D\u5FD8\u521D\u5FC3 \u7262\u8BB0\u4F7F\u547D\u201D\u4E3B\u9898\u6559\u80B2/\u575A\u5B9A\u5171\u4EA7\u515A\u4EBA\u7684\u7406\u60F3\u4FE1\u5FF5\u5B97\u65E8.ICE"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &4287725718187755410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267645231828445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
+--- !u!1 &9073267645626811778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9073267645626811777}
+  - component: {fileID: 9073267645626811783}
+  - component: {fileID: 9073267645626811776}
+  m_Layer: 5
+  m_Name: AV Pro Video uGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9073267645626811777
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267645626811778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9073267643905180877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &9073267645626811783
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267645626811778}
+  m_CullTransparentMesh: 0
+--- !u!114 &9073267645626811776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073267645626811778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f17cdc186456a4469a139a104d2ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  _mediaPlayer: {fileID: 9073267645231828444}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  _setNativeSize: 0
+  _scaleMode: 2
+  _noDefaultDisplay: 1
+  _displayInEditor: 1
+  _defaultTexture: {fileID: 0}
+--- !u!1 &9088897895888308624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4325122555991592802}
+  - component: {fileID: 2628840601537610598}
+  - component: {fileID: 1451681993539943782}
+  m_Layer: 0
+  m_Name: AVPro Media Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4325122555991592802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9088897895888308624}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 900.214, y: 947.9492, z: 0}
+  m_LocalScale: {x: 90.90908, y: 90.90908, z: 0}
+  m_Children: []
+  m_Father: {fileID: 3358002096610738173}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2628840601537610598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9088897895888308624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VideoLocation: 2
+  m_VideoPath: "\u4E91\u8BFE\u5802/\u515A\u652F\u90E8\u7EC4\u7EC7\u751F\u6D3B\u5236\u5EA6/\u4F1A\u8BAE\u5236\u5EA6\uFF081\uFF09.mp4"
+  m_AutoOpen: 1
+  m_AutoStart: 1
+  m_Loop: 1
+  m_Volume: 1
+  m_Balance: 0
+  m_Muted: 0
+  m_PlaybackRate: 1
+  m_Resample: 0
+  m_ResampleMode: 0
+  m_ResampleBufferSize: 5
+  m_Persistent: 0
+  m_videoMapping: 0
+  m_StereoPacking: 0
+  m_AlphaPacking: 0
+  m_DisplayDebugStereoColorTint: 0
+  m_FilterMode: 1
+  m_WrapMode: 1
+  m_AnisoLevel: 0
+  m_LoadSubtitles: 0
+  m_SubtitleLocation: 2
+  m_SubtitlePath: 
+  m_AudioHeadTransform: {fileID: 0}
+  m_AudioFocusEnabled: 0
+  m_AudioFocusTransform: {fileID: 0}
+  m_AudioFocusWidthDegrees: 90
+  m_AudioFocusOffLevelDB: 0
+  m_events:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: RenderHeads.Media.AVProVideo.MediaPlayerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_eventMask: -1
+  m_forceFileFormat: 0
+  _pauseMediaOnAppPause: 1
+  _playMediaOnAppUnpause: 1
+  m_sourceSampleRate: 0
+  m_sourceChannels: 0
+  m_manuallySetAudioSourceProperties: 0
+  _optionsWindows:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 0
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    hintAlphaChannel: 0
+    useLowLatency: 0
+    forceAudioOutputDeviceName: 
+    preferredFilters: []
+    enableAudio360: 0
+    audio360ChannelMode: 0
+  _optionsMacOSX:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+  _optionsIOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsTVOS:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    httpHeaderJson: 
+    keyServerURLOverride: 
+    keyServerAuthToken: 
+    base64EncodedKeyBlob: 
+    useYpCbCr420Textures: 1
+  _optionsAndroid:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    videoApi: 2
+    useFastOesPath: 0
+    showPosterFrame: 0
+    enableAudio360: 0
+    audio360ChannelMode: 0
+    preferSoftwareDecoder: 0
+    httpHeaderJson: 
+    fileOffset: 0
+  _optionsWindowsPhone:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWindowsUWP:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    useHardwareDecoding: 1
+    useUnityAudio: 0
+    forceAudioResample: 1
+    useTextureMips: 0
+    useLowLatency: 0
+  _optionsWebGL:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+    externalLibrary: 0
+    useTextureMips: 0
+  _optionsPS4:
+    overridePath: 0
+    pathLocation: 2
+    path: 
+--- !u!114 &1451681993539943782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9088897895888308624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7763a6e7de0a40adf7064af54807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Path: 
